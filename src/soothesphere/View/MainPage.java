@@ -70,7 +70,12 @@ public class MainPage extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         SettingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere.png"))); // NOI18N
-        getContentPane().add(SettingsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(364, 272, 30, -1));
+        SettingsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SettingsButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(SettingsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 30, -1));
 
         ContactButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Emergency_Phone_Numbers-removebg-preview.png"))); // NOI18N
         ContactButton.addActionListener(new java.awt.event.ActionListener() {
@@ -78,13 +83,13 @@ public class MainPage extends javax.swing.JFrame {
                 ContactButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(ContactButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(362, 202, 32, -1));
+        getContentPane().add(ContactButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 190, 32, -1));
 
         ProfileButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Profile Icon Silhouette PNG Transparent, Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG Image For Free Download.jpg"))); // NOI18N
-        getContentPane().add(ProfileButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(362, 235, 32, 31));
+        getContentPane().add(ProfileButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 230, 32, 31));
 
         NotificationButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere (10).png"))); // NOI18N
-        getContentPane().add(NotificationButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(362, 165, 32, 31));
+        getContentPane().add(NotificationButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, 32, 31));
 
         BreathingButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere (9).png"))); // NOI18N
         BreathingButton.addActionListener(new java.awt.event.ActionListener() {
@@ -131,6 +136,10 @@ public class MainPage extends javax.swing.JFrame {
     private void ContactButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ContactButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ContactButtonActionPerformed
+
+    private void SettingsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SettingsButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_SettingsButtonActionPerformed
 
     /**
      * @param args the command line arguments

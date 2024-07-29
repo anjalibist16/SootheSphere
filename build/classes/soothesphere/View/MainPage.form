@@ -50,9 +50,12 @@
           <Image iconType="3" name="/SootheSphere.png"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SettingsButtonActionPerformed"/>
+      </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="364" y="272" width="30" height="-1"/>
+          <AbsoluteConstraints x="360" y="270" width="30" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -67,7 +70,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="362" y="202" width="32" height="-1"/>
+          <AbsoluteConstraints x="360" y="190" width="32" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -79,7 +82,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="362" y="235" width="32" height="31"/>
+          <AbsoluteConstraints x="360" y="230" width="32" height="31"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -91,7 +94,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="362" y="165" width="32" height="31"/>
+          <AbsoluteConstraints x="360" y="150" width="32" height="31"/>
         </Constraint>
       </Constraints>
     </Component>
