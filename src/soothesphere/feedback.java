@@ -42,7 +42,7 @@ public class feedback extends javax.swing.JFrame {
         Nametextfield = new javax.swing.JTextField();
         Emailtextfield = new javax.swing.JTextField();
         Messagetextfield = new javax.swing.JTextField();
-        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere (5).png"))); // NOI18N
 
@@ -101,8 +101,9 @@ public class feedback extends javax.swing.JFrame {
         });
         getContentPane().add(Messagetextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 110, -1));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere (5).png"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, -1));
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/soothesphere/Pictures/FeedbackDefaultphoto.png"))); // NOI18N
+        jLabel12.setText("jLabel12");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -188,7 +189,7 @@ public class feedback extends javax.swing.JFrame {
     private javax.swing.JButton Submit;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

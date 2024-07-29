@@ -29,6 +29,7 @@ public class secondyogaandexercises extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel6 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -44,6 +45,9 @@ public class secondyogaandexercises extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
 
         jLabel6.setText("jLabel6");
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/soothesphere/Pictures/SootheSphere (2).png"))); // NOI18N
+        jLabel9.setText("jLabel9");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -126,7 +130,7 @@ public class secondyogaandexercises extends javax.swing.JFrame {
         });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(342, 274, 52, -1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere (2).png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/soothesphere/Pictures/yogaPhotodefault.png"))); // NOI18N
         jLabel8.setText("jLabel8");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, -1));
 
@@ -239,5 +243,6 @@ public class secondyogaandexercises extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }

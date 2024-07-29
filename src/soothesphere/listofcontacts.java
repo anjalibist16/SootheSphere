@@ -33,7 +33,7 @@ public class listofcontacts extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         nextButton = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         jLabel2.setText("jLabel2");
 
@@ -68,9 +68,9 @@ public class listofcontacts extends javax.swing.JFrame {
         });
         getContentPane().add(nextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(332, 270, 60, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SootheSphere (3).png"))); // NOI18N
-        jLabel7.setText("jLabel7");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, -1));
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/soothesphere/Pictures/ListcontactsPhotodefault.png"))); // NOI18N
+        jLabel8.setText("jLabel8");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -127,7 +127,7 @@ public class listofcontacts extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JButton nextButton;
     // End of variables declaration//GEN-END:variables
 }
